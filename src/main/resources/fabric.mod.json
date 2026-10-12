@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "restrictedclient",
+  "version": "${version}",
+  "name": "Restricted Client",
+  "description": "Purple glass-themed client-side utility HUD for Minecraft 1.21.11.",
+  "authors": ["Restricted Client"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.restrictedclient.RestrictedClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
